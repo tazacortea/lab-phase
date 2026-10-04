@@ -1,0 +1,15 @@
+{
+  "name": "atelier-ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Back-end Express pour le site e-commerce ATELIER (projet de formation)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

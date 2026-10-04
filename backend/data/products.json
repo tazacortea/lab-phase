@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Vase Terra",
+    "cat": "Céramique",
+    "price": 48,
+    "emoji": "🏺",
+    "stock": 6,
+    "desc": "Vase artisanal en grès émaillé, tourné à la main."
+  },
+  {
+    "id": 2,
+    "name": "Bol Nuage",
+    "cat": "Céramique",
+    "price": 22,
+    "emoji": "🍶",
+    "stock": 12,
+    "desc": "Bol en porcelaine mate, idéal pour le petit-déjeuner."
+  },
+  {
+    "id": 3,
+    "name": "Plateau Chêne",
+    "cat": "Bois",
+    "price": 65,
+    "emoji": "🪵",
+    "stock": 4,
+    "desc": "Plateau massif en chêne huilé, fabriqué localement."
+  },
+  {
+    "id": 4,
+    "name": "Tabouret Bas",
+    "cat": "Bois",
+    "price": 120,
+    "emoji": "🪑",
+    "stock": 3,
+    "desc": "Tabouret bas en noyer, assise galbée."
+  },
+  {
+    "id": 5,
+    "name": "Plaid Lin",
+    "cat": "Textile",
+    "price": 75,
+    "emoji": "🧶",
+    "stock": 9,
+    "desc": "Plaid en lin lavé, tissé en petite série."
+  },
+  {
+    "id": 6,
+    "name": "Coussin Ocre",
+    "cat": "Textile",
+    "price": 34,
+    "emoji": "🛋️",
+    "stock": 14,
+    "desc": "Housse de coussin en coton épais, teinte naturelle."
+  },
+  {
+    "id": 7,
+    "name": "Carafe Onde",
+    "cat": "Verre",
+    "price": 39,
+    "emoji": "🫙",
+    "stock": 7,
+    "desc": "Carafe en verre soufflé bouche, forme ondulée."
+  },
+  {
+    "id": 8,
+    "name": "Bougeoir Duo",
+    "cat": "Verre",
+    "price": 28,
+    "emoji": "🕯️",
+    "stock": 10,
+    "desc": "Paire de bougeoirs en verre fumé."
+  },
+  {
+    "id": 9,
+    "name": "Panier Osier",
+    "cat": "Bois",
+    "price": 42,
+    "emoji": "🧺",
+    "stock": 8,
+    "desc": "Panier de rangement tressé main."
+  }
+]

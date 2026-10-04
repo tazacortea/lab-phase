@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATELIER — Boutique en ligne</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="logo">ATELIER<span>.</span></div>
+    <nav class="cats" id="catNav"></nav>
+    <div class="top-actions">
+      <div class="search"><input id="searchInput" placeholder="Rechercher..." /></div>
+      <button class="icon-btn" onclick="toggleCart(true)">🛍️<span class="badge" id="cartBadge" style="display:none">0</span></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Des objets qui traversent le temps.</h1>
+    <p>Une sélection soignée de pièces en céramique, bois et lin — pensées pour durer, choisies pour leur caractère.</p>
+    <a href="#catalogue" class="btn">Voir la collection ↓</a>
+  </div>
+  <div class="hero-visual">🏺</div>
+</section>
+
+<div class="wrap" id="catalogue">
+  <div class="section-title">
+    <h2>Catalogue</h2>
+    <span id="resultCount"></span>
+  </div>
+  <div class="grid" id="productGrid"><div class="empty">Chargement du catalogue…</div></div>
+</div>
+
+<footer>ATELIER — projet de formation e-commerce · frontend + back-end Express</footer>
+
+<div class="overlay" id="overlay" onclick="toggleCart(false)"></div>
+<div class="drawer" id="cartDrawer">
+  <div class="drawer-head">
+    <h2>Votre panier</h2>
+    <button class="close-x" onclick="toggleCart(false)">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="drawer-foot">
+    <div class="total-row"><span>Total</span><span class="price" id="cartTotal">0,00 €</span></div>
+    <button class="btn full" id="checkoutBtn" onclick="openCheckout()">Passer commande</button>
+  </div>
+</div>
+
+<div class="modal-overlay" id="checkoutOverlay">
+  <div class="modal" id="checkoutModal"></div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
